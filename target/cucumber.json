@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "As an User, I will be able to sign in with valid credentials and should verify the success message",
+        "description": "",
+        "id": "demotours-login-function-feature;as-an-user--i-will-be-able-to-sign-in-with-valid-credentials-and-should-verify-the-success-message",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2590833400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Browser",
+            "match": {
+              "location": "DemoToursStepDef.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1983858300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to URL",
+            "match": {
+              "location": "DemoToursStepDef.go_to_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10075601000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter UserName and Password",
+            "match": {
+              "location": "DemoToursStepDef.enter_UserName_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3221455600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Login Success Msg",
+            "match": {
+              "location": "DemoToursStepDef.verify_Login_Success_Msg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667713100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close Browser",
+            "match": {
+              "location": "DemoToursStepDef.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "DemoTours Login Function Feature",
+    "description": "",
+    "id": "demotours-login-function-feature",
+    "keyword": "Feature",
+    "uri": "file:Features/DemoTours.feature",
+    "tags": []
+  }
+]
