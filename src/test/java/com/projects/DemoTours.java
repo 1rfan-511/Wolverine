@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.asserts.SoftAssert;
 import com.generic.DemoToursPageFactory;
 import com.util.BaseConfig;
+import com.util.ColorMe;
 import com.util.HandleClick;
 import com.util.HighLighter;
 
@@ -30,6 +31,7 @@ public class DemoTours {
 		dtp.getEnterUserName().sendKeys(BaseConfig.readPro("DemoUser"));
 		Thread.sleep(3000);
 		HighLighter.getColor(dtp.getEnterPassword(), driver, "blue");
+		//ColorMe.goColor(driver, dtp.getEnterPassword(), "blue");
 		dtp.getEnterPassword().sendKeys(BaseConfig.readPro("DemoPass"));
 		//dtp.getClickSubmit().click();
 		Thread.sleep(3000);

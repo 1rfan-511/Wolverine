@@ -1,0 +1,6 @@
+com\projects\Zoopla.class
+com\runner\RunnerFile.class
+com\test\TestNGrun.class
+com\projects\DemoTours.class
+com\stepdef\DemoToursStepDef.class
+com\test\TestRun.class

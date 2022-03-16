@@ -1,0 +1,7 @@
+com\generic\DemoToursPageFactory.class
+com\report\ExtentReport.class
+com\util\BaseConfig.class
+com\util\ScreenShot.class
+com\generic\ZooplaPageFactory.class
+com\util\HandleClick.class
+com\util\HighLighter.class
